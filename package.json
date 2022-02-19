@@ -1,0 +1,19 @@
+{
+  "name": "mutual-fund",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fast-csv": "^4.3.6",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
